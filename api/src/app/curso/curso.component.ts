@@ -10,7 +10,7 @@ import { CursoService } from './curso.service';
 })
 export class CursoComponent implements OnInit{
 
-  vetor: Curso[];
+  vetor: Curso[]=[];
 
   //objeto da classe curso
   curso = new Curso();
